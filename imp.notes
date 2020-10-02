@@ -1,0 +1,5 @@
+1. Return and array without assigning a variable to it:
+    - return new int [] {val1, val2}; 
+
+2. Throw an Exception if result does not exist:
+    - throw new IllegalArgumentException("The given input has no solution");
