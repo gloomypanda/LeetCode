@@ -3,3 +3,7 @@
 
 2. Throw an Exception if result does not exist:
     - throw new IllegalArgumentException("The given input has no solution");
+
+3. In a LinkedList question create a dummy head Node to avoid Null check errors when the list is empty:
+    - ListNode dummy = new ListNode(0);
+    - return dummy.next;
